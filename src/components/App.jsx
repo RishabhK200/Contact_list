@@ -5,6 +5,7 @@ import Contacts from "../contacts";
 function createCard(Contacts) {
   return (
     <Card
+      key={Contacts.id}   // to render each components efficiently using loop(here map)
       name={Contacts.name}
       img={Contacts.imgURL}
       phone={Contacts.phone}
