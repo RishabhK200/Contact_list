@@ -16,10 +16,10 @@ function createCard(Contacts) {
 function App() {
   return (
     <div>
-      <h1 className="heading">My Favorite Cricketers Contact List</h1>
-      {Contacts.map(createCard)};
+      <h1 className="heading">My Favorite Cricketers Contact List</h1>  
+      {Contacts.map(createCard)};  // mapping 
       {/* <Card
-        name={Contacts[0].name} // attributes
+        name={Contacts[0].name} // attributes  
         img={Contacts[0].imgURL}
         phone={Contacts[0].phone}
         email={Contacts[0].email}
